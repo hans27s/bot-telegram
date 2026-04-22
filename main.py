@@ -4,6 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # 🔐 Variables de entorno (Railway)
 TOKEN = os.getenv("8663092002:AAHSltKfV9Dc4PaTsyllG5cOdWkOuAnoFqo")
+CHAT_ID = os.getenv("1568924441")
 
 tareas = {
     "Monday": ["Ir al gimnasio", "Estudiar Python"],
